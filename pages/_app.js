@@ -6,9 +6,6 @@ const App = ({ Component, pageProps }) => {
   const [loader, setLoader] = useState(true);
   useEffect(() => {
     document.querySelector("body").classList.add("dark-skin");
-    document.querySelector("body").classList.add("dark-skin");
-    document.querySelector("body").classList.add("dark-skin");
-    document.querySelector("body").classList.add("dark-skin");
     setTimeout(() => {
       document.querySelector("body").classList.add("dark-skin");
       setLoader(false);
@@ -77,16 +74,17 @@ const App = ({ Component, pageProps }) => {
         />
         <link
           rel="stylesheet"
-          href="assets/css/style.css"
+          href="assets/css/dark.css"
           type="text/css"
           media="all"
         />
         <link
           rel="stylesheet"
-          href="assets/css/dark.css"
+          href="assets/css/style.css"
           type="text/css"
           media="all"
         />
+        
         {/* Favicon */}
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
