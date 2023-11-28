@@ -34,9 +34,9 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
   const activeBtn = (value) => (value === filterKey ? "active" : "");
   return (
     <Fragment>
-      <div className="works-box works-list">
+      <div className="dark-skin works-box works-list">
         <div
-          className="filter-links scrolla-element-anim-1 scroll-animate"
+          className="dark-skin filter-links scrolla-element-anim-1 scroll-animate"
           data-animate="active"
         >
           <a
@@ -81,14 +81,14 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
             Branding
           </a>
         </div>
-        <div className="works-items works-list-items row">
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
+        <div className="dark-skin works-items works-list-items row">
+          <div className="dark-skin works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
             <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
+              className="dark-skin works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
             >
-              <div className="image">
-                <div className="img">
+              <div className="dark-skin image">
+                <div className="dark-skin img">
                   <Link legacyBehavior href="/work-single">
                     <a>
                       <img
@@ -96,43 +96,43 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                         src="assets/images/work4.jpeg"
                         alt="Zorro"
                       />
-                      <span className="overlay" />
+                      <span className="dark-skin overlay" />
                     </a>
                   </Link>
                 </div>
               </div>
-              <div className="desc">
-                <span className="category"> Branding, Photography </span>
-                <h5 className="name">
+              <div className="dark-skin desc">
+                <span className="dark-skin category"> Branding, Photography </span>
+                <h5 className="dark-skin name">
                   <Link legacyBehavior href="/work-single">
                     <a>Zorro</a>
                   </Link>
                 </h5>
-                <div className="text">
+                <div className="dark-skin text">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
                 <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
+                  <a className="dark-skin lnk">See project</a>
                 </Link>
               </div>
               <div
-                className="bg-img"
+                className="dark-skin bg-img"
                 style={{
                   backgroundImage: "url(assets/images/pat-2.png)",
                 }}
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-ui-ux-design ">
+          <div className="dark-skin works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-ui-ux-design ">
             <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
+              className="dark-skin works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
             >
-              <div className="image">
-                <div className="img">
+              <div className="dark-skin image">
+                <div className="dark-skin img">
                   <Link legacyBehavior href="/work-single">
                     <a>
                       <img
@@ -140,43 +140,43 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                         src="assets/images/work2.jpeg"
                         alt="Gooir"
                       />
-                      <span className="overlay" />
+                      <span className="dark-skin overlay" />
                     </a>
                   </Link>
                 </div>
               </div>
-              <div className="desc">
-                <span className="category"> Branding, UI UX Design </span>
-                <h5 className="name">
+              <div className="dark-skin desc">
+                <span className="dark-skin category"> Branding, UI UX Design </span>
+                <h5 className="dark-skin name">
                   <Link legacyBehavior href="/work-single">
                     <a>Gooir</a>
                   </Link>
                 </h5>
-                <div className="text">
+                <div className="dark-skin text">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
                 <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
+                  <a className="dark-skin lnk">See project</a>
                 </Link>
               </div>
               <div
-                className="bg-img"
+                className="dark-skin bg-img"
                 style={{
                   backgroundImage: "url(assets/images/pat-2.png)",
                 }}
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
+          <div className="dark-skin works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
             <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
+              className="dark-skin works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
             >
-              <div className="image">
-                <div className="img">
+              <div className="dark-skin image">
+                <div className="dark-skin img">
                   <Link legacyBehavior href="/work-single">
                     <a>
                       <img
@@ -184,43 +184,43 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                         src="assets/images/work7.jpg"
                         alt="Explore"
                       />
-                      <span className="overlay" />
+                      <span className="dark-skin overlay" />
                     </a>
                   </Link>
                 </div>
               </div>
-              <div className="desc">
-                <span className="category"> Development, UI UX Design </span>
-                <h5 className="name">
+              <div className="dark-skin desc">
+                <span className="dark-skin category"> Development, UI UX Design </span>
+                <h5 className="dark-skin name">
                   <Link legacyBehavior href="/work-single">
                     <a>Explore</a>
                   </Link>
                 </h5>
-                <div className="text">
+                <div className="dark-skin text">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
                 <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
+                  <a className="dark-skin lnk">See project</a>
                 </Link>
               </div>
               <div
-                className="bg-img"
+                className="dark-skin bg-img"
                 style={{
                   backgroundImage: "url(assets/images/pat-2.png)",
                 }}
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
+          <div className="dark-skin works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
             <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
+              className="dark-skin works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
             >
-              <div className="image">
-                <div className="img">
+              <div className="dark-skin image">
+                <div className="dark-skin img">
                   <Link legacyBehavior href="/work-single">
                     <a>
                       <img
@@ -228,43 +228,43 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                         src="assets/images/work1.jpeg"
                         alt="Mozar"
                       />
-                      <span className="overlay" />
+                      <span className="dark-skin overlay" />
                     </a>
                   </Link>
                 </div>
               </div>
-              <div className="desc">
-                <span className="category"> Branding, Photography </span>
-                <h5 className="name">
+              <div className="dark-skin desc">
+                <span className="dark-skin category"> Branding, Photography </span>
+                <h5 className="dark-skin name">
                   <Link legacyBehavior href="/work-single">
                     <a>Mozar</a>
                   </Link>
                 </h5>
-                <div className="text">
+                <div className="dark-skin text">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
                 <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
+                  <a className="dark-skin lnk">See project</a>
                 </Link>
               </div>
               <div
-                className="bg-img"
+                className="dark-skin bg-img"
                 style={{
                   backgroundImage: "url(assets/images/pat-2.png)",
                 }}
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
+          <div className="dark-skin works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
             <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
+              className="dark-skin works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
             >
-              <div className="image">
-                <div className="img">
+              <div className="dark-skin image">
+                <div className="dark-skin img">
                   <Link legacyBehavior href="/work-single">
                     <a>
                       <img
@@ -272,43 +272,43 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                         src="assets/images/single8.jpg"
                         alt="Stay Fit"
                       />
-                      <span className="overlay" />
+                      <span className="dark-skin overlay" />
                     </a>
                   </Link>
                 </div>
               </div>
-              <div className="desc">
-                <span className="category"> Development, UI UX Design </span>
-                <h5 className="name">
+              <div className="dark-skin desc">
+                <span className="dark-skin category"> Development, UI UX Design </span>
+                <h5 className="dark-skin name">
                   <Link legacyBehavior href="/work-single">
                     <a>Stay Fit</a>
                   </Link>
                 </h5>
-                <div className="text">
+                <div className="dark-skin text">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
                 <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
+                  <a className="dark-skin lnk">See project</a>
                 </Link>
               </div>
               <div
-                className="bg-img"
+                className="dark-skin bg-img"
                 style={{
                   backgroundImage: "url(assets/images/pat-2.png)",
                 }}
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-photo ">
+          <div className="dark-skin works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-photo ">
             <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
+              className="dark-skin works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
             >
-              <div className="image">
-                <div className="img">
+              <div className="dark-skin image">
+                <div className="dark-skin img">
                   <Link legacyBehavior href="/work-single">
                     <a>
                       <img
@@ -316,30 +316,30 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                         src="assets/images/single6.jpg"
                         alt="Kana"
                       />
-                      <span className="overlay" />
+                      <span className="dark-skin overlay" />
                     </a>
                   </Link>
                 </div>
               </div>
-              <div className="desc">
-                <span className="category"> Development, Photography </span>
-                <h5 className="name">
+              <div className="dark-skin desc">
+                <span className="dark-skin category"> Development, Photography </span>
+                <h5 className="dark-skin name">
                   <Link legacyBehavior href="/work-single">
                     <a>Kana</a>
                   </Link>
                 </h5>
-                <div className="text">
+                <div className="dark-skin text">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
                 <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
+                  <a className="dark-skin lnk">See project</a>
                 </Link>
               </div>
               <div
-                className="bg-img"
+                className="dark-skin bg-img"
                 style={{
                   backgroundImage: "url(assets/images/pat-2.png)",
                 }}
