@@ -5,12 +5,12 @@ const Header = () => {
   return (
     <Fragment>
       {/* Header */}
-      <header className="header">
-        <div className="header__builder">
-          <div className="row">
-            <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <header className="dark-skin header">
+        <div className="dark-skin header__builder">
+          <div className="dark-skin row">
+            <div className="dark-skin col-xs-4 col-sm-4 col-md-4 col-lg-4">
               {/* logo */}
-              <div className="logo">
+              <div className="dark-skin logo">
                 <Link href="/" legacyBehavior>
                   <a>
                     <img

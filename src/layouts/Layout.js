@@ -29,15 +29,15 @@ const Layout = ({ children, pageClassName }) => {
 
   return (
     <Fragment>
-      <div className="container-page">
+      <div className="dark-skin container-page">
         <Header />
         {/* Wrapper */}
-        <div className="wrapper">{children}</div>
+        <div className="dark-skin wrapper">{children}</div>
         {/* Footer */}
         <Footer />
       </div>
       {/* cursor */}
-      <div className="cursor" />
+      <div className="dark-skin cursor" />
     </Fragment>
   );
 };

@@ -3,16 +3,16 @@ const PreLoader = () => {
   return (
     <Fragment>
       {/* Preloader */}
-      <div className="preloader">
-        <div className="centrize full-width">
-          <div className="vertical-center">
-            <div className="spinner-logo">
+      <div className="dark-skin preloader">
+        <div className="dark-skin centrize full-width">
+          <div className="dark-skin vertical-center">
+            <div className="dark-skin spinner-logo">
               <img
                 src="assets/images/logo.png"
                 alt="Luique - Personal Portfolio HTML Template"
               />
-              <div className="spinner-dot" />
-              <div className="spinner spinner-line" />
+              <div className="dark-skin spinner-dot" />
+              <div className="dark-skin spinner spinner-line" />
             </div>
           </div>
         </div>
